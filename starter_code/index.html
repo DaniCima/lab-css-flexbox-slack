@@ -17,9 +17,9 @@
   </head>
 
   <body>
-    <nav>
+    <nav class="nav-bar">
       <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
+      <ul class = "nav-bar-ul">
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
@@ -27,16 +27,22 @@
       </ul>
     </nav>
     <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
-      <h1>Where Work Happens</h1>
-      <p>
+      <!-- the image used to be here + add a br tag-->
+      <h1>Where Work <br>
+        Happens</h1>
+      <p class = "container">
         When your team needs to kick off a project, hire a new employee, deploy
         some code, review a sales contract, finalize next year's budget, measure
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
       </p>
+      <!-- added div tag-->
+      <div class = "your-container">
+      <input type="email" placeholder="Email address">
       <button type="button" name="button">GET STARTED</button>
       <p>Already using Slack? <a href="#">Sign in</a></p>
+    </div>
+      <img class ="img-back" src="./images/home_talking.png" alt="home_work_happening" />
     </header>
     <main>
       <div>
